@@ -1,0 +1,831 @@
+/* Start Global */
+
+body {
+    background-color: #f7f9fe;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3,
+h4 {
+    color: #465675;
+}
+
+h1,
+h2 {
+    color: #50658e;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #3d4b69;
+    line-height: 1.5;
+}
+
+
+/* End Global */
+
+
+/* Start Header */
+
+#home .nav-link {
+    color: #50658e;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#home .nav-link:hover,
+#home .nav-link.active {
+    color: #2a81ea;
+}
+
+.do a {
+    background-color: #2a81ea;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 0.5rem 1.4rem !important;
+    border-radius: 2rem;
+}
+
+.do a:hover {
+    background-color: #1468cd;
+}
+
+
+/* End Header */
+
+
+/* Start Banner */
+
+#banner {
+    margin-top: 6rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-overlay {
+    background-image: url("../images/shape-a.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+.banner-content h2 {
+    font-size: 6rem;
+    color: #50658e;
+    vertical-align: middle;
+}
+
+.banner-content .small-txt {
+    vertical-align: middle;
+}
+
+.banner-content .small-txt p {
+    margin: 0;
+}
+
+.banner-content .cov {
+    font-size: 2rem;
+    color: #f86168;
+}
+
+.banner-content .vir {
+    font-size: 2.5rem;
+}
+
+.banner-txt {
+    line-height: 1.67;
+    font-size: 1.2rem;
+    color: #3d4b69;
+    margin-bottom: 1rem;
+}
+
+.banner-links {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.prot {
+    padding: 0.7rem 1.4rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    background-color: #2a81ea;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.prot:hover {
+    background-color: #1468cd;
+    color: #fff;
+}
+
+.banner-links .about {
+    color: #2a81ea;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.banner-links .about:hover {
+    color: #1468cd;
+}
+
+.banner-content .head {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #7d92bb;
+    margin-bottom: 0;
+}
+
+.banner-content .count {
+    color: #465675;
+    font-weight: 700;
+}
+
+.banner-content .last {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #7d92bb;
+    margin-top: 1rem;
+}
+
+
+/* Start About */
+
+#about {
+    margin-top: 6rem;
+}
+
+#about .about-content {
+    margin-top: 6rem;
+    padding-top: 5rem;
+}
+
+#about .head {
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-size: 1.1rem;
+}
+
+#about .title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #50658e;
+}
+
+#about .strong {
+    font-weight: 700;
+    color: #3d4b69;
+}
+
+#about p {
+    color: #3d4b69;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+#about a {
+    color: #2a81ea;
+}
+
+#about i {
+    font-size: 0.8rem;
+}
+
+
+/* End About */
+
+
+/* Start Spread */
+
+#spread {
+    margin-top: 6rem;
+}
+
+#spread .section-head {
+    width: 600px;
+}
+
+#spread .head {
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-size: 1.2rem;
+}
+
+#spread .title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+#spread .spread-txt {
+    margin-top: 1rem;
+}
+
+#spread .card {
+    height: 100%;
+    box-shadow: 0px 5px 40px 0px rgb(70 86 117 / 8%);
+    border: 0;
+}
+
+#spread .card-img-top {
+    border-bottom: 6px solid #9cc2f7;
+}
+
+#spread .card-body {
+    padding: 1.3rem 1.9rem 1.5rem;
+}
+
+#spread .card-title {
+    color: #2a81ea;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#spread .question {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#spread .question a {
+    padding: 0.7rem 1.8rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    background-color: #2a81ea;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+
+
+/* End Spread */
+
+
+/* Start Symptoms */
+
+#symptoms {
+    margin-top: 6rem;
+}
+
+#symptoms .section-head {
+    padding-top: 6rem;
+}
+
+#symptoms .section-content {
+    margin-top: 6rem;
+}
+
+#symptoms .section-head {
+    width: 730px;
+}
+
+#symptoms .head {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #2a81ea;
+}
+
+#symptoms .title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+#symptoms .card {
+    box-shadow: 0px 5px 40px 0px rgb(70 86 117 / 8%);
+    border: 0;
+}
+
+#symptoms img {
+    position: absolute;
+    width: 80px;
+    right: 1.875rem;
+    top: -2.5rem;
+    border-radius: 50%;
+}
+
+#symptoms .card-title {
+    color: #2a81ea;
+    font-weight: 500;
+}
+
+#symptoms .exclamation p {
+    font-style: italic;
+}
+
+#symptoms .exclamation i {
+    color: #7fb3f2;
+    font-size: 1.7rem
+}
+
+#symptoms .exclamation strong {
+    color: #2a81ea;
+    font-style: normal;
+}
+
+#symptoms .question a {
+    padding: 0.7rem 1.8rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    background-color: #2a81ea;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+
+
+/* End Symptoms */
+
+
+/* Start Prevention */
+
+#prevention {
+    margin-top: 6rem;
+}
+
+#prevention .section-head {
+    width: 730px;
+}
+
+#prevention .head {
+    font-size: 1.125rem;
+    color: #2a81ea;
+    text-transform: uppercase;
+}
+
+#prevention .title {
+    text-transform: uppercase;
+}
+
+#prevention .card {
+    border: 0;
+    text-align: center;
+}
+
+#prevention .card-img-top {
+    width: 120px;
+    margin: auto;
+    max-width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#prevention .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#prevention .section-foot {
+    text-align: center;
+}
+
+#prevention .hand {
+    padding: 0.7rem 1.78rem;
+    background-color: #2a81ea;
+    color: #fff;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    border-radius: 2rem;
+}
+
+#prevention i {
+    font-size: 0.8rem;
+}
+
+#prevention .qa {
+    color: #2a81ea;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+#prevention .qa span {
+    margin-right: 0.5rem;
+}
+
+
+/* End Prevention */
+
+
+/* Start Steps */
+
+#steps .section-content {
+    margin-top: 6rem;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    padding: 2.3rem 2.5rem 2.5rem;
+}
+
+#steps .section-content img {
+    max-width: 100%;
+}
+
+#steps .title {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+#steps .check {
+    list-style: none;
+    padding-left: 0;
+}
+
+#steps .check li {
+    margin-bottom: 1rem;
+}
+
+#steps .check i {
+    color: #3dca93;
+    margin-right: 0.3rem;
+}
+
+
+/* End Steps */
+
+
+/* Start Handwash */
+
+#handwash .section-head {
+    margin-top: 6rem;
+}
+
+#handwash .section-content {
+    margin-top: 3rem;
+}
+
+#handwash .title {
+    font-size: 1.875rem;
+}
+
+#handwash .faq {
+    padding: 0.5rem 1.4rem;
+    color: #2a81ea;
+    font-weight: bold;
+}
+
+#handwash .card {
+    border: 0;
+    background: none;
+    text-align: center;
+}
+
+#handwash img {
+    max-width: 100%;
+    width: 120px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#handwash .card .title {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+/* End Handwash */
+
+
+/* Start Treatment */
+
+#treatment {
+    padding: 6rem 0;
+    background-color: #2766bb;
+    color: #fff;
+    position: relative;
+}
+
+#treatment .overlay {
+    background-image: url(../images/shape-b.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+#treatment .head {
+    color: #73e3ff;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+
+#treatment .text-block .title {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#treatment p {
+    color: #ced4ff;
+}
+
+#treatment strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+#treatment .d-background {
+    background-color: #1b47a1;
+    padding: 2.4rem 2.5rem;
+    border-radius: 4px;
+}
+
+#treatment .d-background .title {
+    color: #fff;
+}
+
+#treatment .d-background p,
+#treatment .d-background ul {
+    color: #fff;
+}
+
+#treatment .list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/* End Treatment */
+
+
+/* Start Protect */
+
+#protect {
+    margin-top: 6rem;
+}
+
+.pro-img {
+    max-width: 100%;
+}
+
+#protect .head {
+    text-transform: uppercase;
+    color: #2a81ea;
+    font-size: 1.2rem;
+}
+
+#protect .section-head {
+    width: 730px;
+}
+
+#protect .item {
+    margin-bottom: 2rem;
+}
+
+.img-con {
+    position: relative;
+    background: #fff;
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    border: 2px solid #2a81ea;
+}
+
+.img-con img {
+    max-width: 100%;
+}
+
+.x {
+    background: #f86168;
+    left: 0;
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    line-height: 1.3rem;
+}
+
+.img-con,
+.img-txt {
+    display: inline-block;
+}
+
+.img-txt .title {
+    color: #2a81ea;
+    font-size: 1rem;
+}
+
+.left-imgs .dots {
+    left: 100%;
+}
+
+.right-imgs .dots {
+    right: 100%;
+}
+
+.dots {
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px dashed #7fb3f2;
+}
+
+.img-check {
+    background: #3dca93;
+    right: 0;
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    color: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+}
+
+
+/* End Protect */
+
+
+/* Start FAQ */
+
+#faq {
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+
+#faq .section-head {
+    margin-bottom: 5rem;
+}
+
+#faq .nav-item {
+    padding: 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: 2px solid #e7e8ff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #50658e;
+    padding: 1rem 1.2rem .7rem 1.3rem;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active {
+    color: #2a81ea;
+    border-color: #2a81ea;
+}
+
+
+/* End FAQ */
+
+
+/* Start News */
+
+#news {
+    margin-top: 6rem;
+}
+
+
+/* End News */
+
+
+/* Start Footer */
+
+.footer {
+    margin-top: 5rem;
+    background: #151c2e;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.footer .overlay {
+    background-image: url(../images/shape-c.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+.footer .about-txt p {
+    color: #b2bfe0;
+}
+
+.footer .social {
+    margin-bottom: 2rem;
+}
+
+.footer .social a {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #50658e;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 0.6rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-top .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.footer-top .links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-top .links a {
+    color: #b2bfe0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    padding-top: 1rem;
+    border-top: 1px solid rgba(247, 248, 255, 0.1);
+}
+
+.footer-bottom p {
+    color: #b2bfe0;
+}
+
+.footer-bottom a {
+    color: #b2bfe0;
+}
+
+.dislaimer p {
+    font-size: 0.7rem;
+    color: #7d92bb;
+}
+
+
+/* End Footer */
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 1200px) {
+    .banner-content h2 {
+        font-size: 4rem;
+    }
+    .banner-content .small-txt p {
+        font-size: 1.5rem;
+    }
+    .banner-content .vir {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #symptoms .card {
+        margin-bottom: 4rem;
+    }
+    #prevention .card {
+        margin-bottom: 3rem;
+    }
+    #news .card {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
